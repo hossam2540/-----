@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Tahoma", "Arial", sans-serif;
+  --color-primary: #3b82f6;
+  --color-sidebar: #ffffff;
+  --color-card: #ffffff;
+  --color-bg: #f8fafc;
+  --color-border: #e2e8f0;
+  --radius-card: 12px;
+  --radius-btn: 8px;
+  --radius-input: 6px;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: #1e293b;
+}
